@@ -1,0 +1,71 @@
+rank,country,cities_with_rapid_transit,cities_500k_plus,proportion_pct,verification_status,notes
+1,Luxembourg,1,0,238.1,special_case,No city>=500k; Luxtram; score=500000/210000*100
+2,Singapore,1,1,100.0,verified,City-state; MRT+LRT
+3,Qatar,1,1,100.0,verified,Doha Metro
+4,Kuwait,1,1,100.0,verified,Kuwait Metro 2024
+5,Denmark,1,1,100.0,verified,Copenhagen Metro+S-train
+6,Austria,1,1,100.0,verified,Vienna U-Bahn+S-Bahn
+7,Norway,1,1,100.0,verified,Oslo T-bane
+8,Finland,1,1,100.0,verified,Helsinki Metro
+9,Hungary,1,1,100.0,verified,Budapest Metro
+10,Romania,1,1,100.0,verified,Bucharest Metro
+11,Bulgaria,1,1,100.0,verified,Sofia Metro
+12,Belarus,1,1,100.0,verified,Minsk Metro
+13,Georgia,1,1,100.0,verified,Tbilisi Metro
+14,Armenia,1,1,100.0,verified,Yerevan Metro
+15,Azerbaijan,1,1,100.0,verified,Baku Metro
+16,Uzbekistan,1,1,100.0,verified,Tashkent Metro
+17,Czech Republic,1,1,100.0,verified_UN,Prague Metro; Brno trams only
+18,Kazakhstan,2,2,100.0,verified,Almaty+Astana Metro
+19,Israel,2,2,100.0,verified,Tel Aviv+Jerusalem LRT
+20,Portugal,2,2,100.0,verified_UN,Lisbon+Porto Metro; UN UA=2
+21,Greece,2,2,100.0,verified,Athens+Thessaloniki Metro
+22,Switzerland,3,3,100.0,verified_UN,Zurich/Geneva/Basel S-Bahn; UN UA=3
+23,Netherlands,4,4,100.0,verified,Amsterdam/Rotterdam Metro; Hague/Utrecht LRT
+24,Belgium,3,3,100.0,verified_UN,Brussels Metro; Antwerp/Liege; UN UA=3
+25,South Korea,7,7,100.0,verified,Seoul/Busan/Incheon/Daegu/Daejeon/Gwangju/Ulsan
+26,New Zealand,2,2,100.0,verified,Auckland+Wellington commuter rail
+27,North Korea,1,1,100.0,estimated,Pyongyang Metro
+28,Panama,1,1,100.0,verified_UN,Panama Metro; UN UA=1
+29,Taiwan,3,3,100.0,verified,Taipei/Kaohsiung/Taichung MRT
+30,Germany,15,18,83.3,verified_num_est_denom,U-Bahn 4+Stadtbahn 7+S-Bahn; denom estimated
+31,Canada,5,6,83.3,verified_num_est_denom,Toronto/Montreal/Vancouver/Calgary/Edmonton/Ottawa; Winnipeg none
+32,France,7,9,77.8,verified_UN,Paris/Lyon/Marseille/Toulouse/Lille/Rennes/Bordeaux; UN UA=9
+33,Sweden,2,3,66.7,verified_UN,Stockholm+Malmo; Gothenburg trams; UN UA=3
+34,Spain,6,9,66.7,verified_UN,Madrid/Barcelona/Valencia/Seville/Bilbao/Malaga; UN UA=9
+35,Morocco,2,3,66.7,estimated,Casablanca+Rabat LRT; Marrakech none
+36,Ukraine,3,5,60.0,verified_UN,Kyiv/Kharkiv/Dnipro; UN UA=5
+37,United Kingdom,6,10,60.0,estimated,London/Newcastle/Glasgow/Manchester/Sheffield/Birmingham
+38,Turkey,4,8,50.0,estimated,Istanbul/Ankara/Izmir/Bursa
+39,Iran,4,8,50.0,estimated,Tehran/Mashhad/Isfahan/Shiraz
+40,Chile,1,2,50.0,verified_UN,Santiago Metro; UN UA=2
+41,Algeria,1,2,50.0,estimated,Algiers Metro; Oran none
+42,Ecuador,1,2,50.0,verified_UN,Quito Metro; UN UA=2
+43,Saudi Arabia,2,4,50.0,estimated,Mecca+Riyadh Metro
+44,UAE,1,2,50.0,estimated,Dubai Metro; Abu Dhabi none
+45,Japan,9,20,45.0,estimated,Tokyo/Osaka/Nagoya/Yokohama/Kyoto/Kobe/Fukuoka/Sapporo/Sendai
+46,Italy,4,10,40.0,estimated_denom,Rome/Milan/Naples/Turin; UN UA=2 is data gap; denom estimated
+47,South Africa,2,5,40.0,estimated,Johannesburg Gautrain+Cape Town BRT
+48,Vietnam,2,5,40.0,estimated,Hanoi+HCMC Metro
+49,Russia,7,18,38.9,estimated,Moscow/StPetersburg/Novosibirsk/Yekaterinburg/Kazan/NizhnyNovgorod/Samara
+50,Peru,1,3,33.3,verified_UN,Lima Metro; UN UA=3
+51,Philippines,1,3,33.3,estimated,Manila LRT/MRT
+52,Venezuela,1,3,33.3,estimated,Caracas Metro
+53,Dominican Republic,1,3,33.3,verified_UN,Santo Domingo Metro; UN UA=3
+54,Bangladesh,1,3,33.3,estimated,Dhaka Metro
+55,Colombia,2,7,28.6,verified_UN,Medellin Metro+Bogota BRT; UN UA=7
+56,Malaysia,2,7,28.6,verified_UN,KL+Penang; Johor under construction; UN UA=7
+57,Egypt,1,4,25.0,verified_UN,Cairo Metro; Alexandria none; UN UA=4
+58,United States,12,50,24.0,estimated,NYC/Chicago/Washington/Boston/SF/Philadelphia/Atlanta/Miami/Baltimore/Cleveland/LA/PATH
+59,Nigeria,1,5,20.0,estimated,Lagos Rail
+60,China,43,240,17.9,verified_user,"43 metro/light rail cities (MOT 2024); 240 cities>=500k (2020 census, user provided)"
+61,India,17,99,17.2,verified_UN,17 metro cities; UN UA=99
+62,Australia,2,13,15.4,verified_UN,Sydney Metro+Melbourne City Loop; UN UA=13
+63,Brazil,8,52,15.4,verified_UN,Sao Paulo/Rio/Brasilia/BeloHorizonte/PortoAlegre/Fortaleza/Recife/Salvador; UN UA=52
+64,Pakistan,1,8,12.5,estimated,Lahore Orange Line
+65,Thailand,1,10,10.0,verified_UN,Bangkok BTS/MRT; UN UA=10
+66,Indonesia,1,10,10.0,estimated,Jakarta MRT
+67,Argentina,1,11,9.1,verified_UN,Buenos Aires Subte; UN UA=11
+68,Mexico,3,51,5.9,verified_UN,Mexico City/Guadalajara/Monterrey; UN UA=51
+69,Poland,1,17,5.9,verified_UN,Warsaw Metro; UN UA=17
+70,Ireland,0,1,0.0,verified_UN,Dublin Luas is street tram not rapid transit; UN UA=1
